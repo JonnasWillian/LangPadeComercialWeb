@@ -1,3 +1,4 @@
+/* Geral */
 * {
   margin: 0;
   padding: 0;
@@ -6,6 +7,30 @@
 
 body {
   font-family: "ROBOTO", sans-serif;
+}
+
+/* Botão WathsApp */
+
+.whatsapp-link {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  /*background-color: #25d366;*/
+  background-color: #ffff;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 1px 1px 2px #888;
+  z-index: 1000;
+}
+
+.whatsapp-link img {
+  margin-top: 8px;
+  width: 70%;
+  height: 70%;
 }
 
 /*Serviços*/
@@ -50,6 +75,29 @@ body {
     font-style: italic;
     text-align: center;
 }
+
+/*Especialização*/
+/* -------- SPONSOR SECTION ----------- */
+.section-4 {
+  margin: 4rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.sponsor img {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  filter: grayscale(100%);
+  opacity: 0.8;
+  transition: opacity 300ms;
+}
+.sponsor img:hover {
+  /* filter: grayscale(0); */
+  opacity: 1;
+}
+
 
 /*Contato*/
 .sc-contact {
