@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,12 +17,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500&family=Raleway:wght@100;200;300;400;500&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
     crossorigin="anonymous">
-  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+
+    <!--Icones do rodapé-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+  <!--Wathsapp-->
   <a class="whatsapp-link"  href="https://api.whatsapp.com/send?phone=5571997343101&text=Ol%C3%A1,%20gostaria%20de%20tirar%20algumas%20d%C3%BAvidas%20sobre%20seu%20servi%C3%A7o" target="_blank">
     <img src="./assets/waths.png"/>
   </a>
@@ -70,7 +74,7 @@
       <h1>Quem somos</h1>
 
       <div class="row">
-        <div class="col">
+        <div class="col-3">
           <img src="./assets/logo.png" class="img-fluid" alt="Logo DevsCody">
         </div>
         <div class="col">
@@ -237,18 +241,56 @@
     </section>
     -->
 
-    <!--Quem somos-->
+    <!--Especialização-->
     <section class="slider" id="tab-typescript">
       <h1>Especializações</h1>
-        <section class="container section-4">
-            <!-- SPONSOR group 1 -->
-            <div class="sponsor sponsor-1"><img src="https://raw.githubusercontent.com/r-e-d-ant/Computer-store-website/b90ac65459206fef22e9b87313f587185554263b/assets/images/microsoft.svg" alt=""></div>
-            <div class="sponsor sponsor-2"><img src="https://raw.githubusercontent.com/r-e-d-ant/Computer-store-website/b90ac65459206fef22e9b87313f587185554263b/assets/images/apple.svg" alt=""></div>
-    
-            <!-- SPONSOR group 2 -->
-            <div class="sponsor sponsor-3"><img src="https://raw.githubusercontent.com/r-e-d-ant/Computer-store-website/b90ac65459206fef22e9b87313f587185554263b/assets/images/dell.svg" alt=""></div>
-            <div class="sponsor sponsor-4"><img src="https://raw.githubusercontent.com/r-e-d-ant/Computer-store-website/b90ac65459206fef22e9b87313f587185554263b/assets/images/ibm.svg" alt=""></div>
-        </section>
+
+      <div class="container text-center">
+        <div class="row g-2">
+          <div class="col-6">
+            <div class="p-3 border bg-light mensagem-especializacao">Otimização de tarefas</div>
+          </div>
+          <div class="col-6">
+            <div class="p-3 border bg-light mensagem-especializacao">Relatórios e gráficos sobre produtividade ou financeiro</div>
+          </div>
+          <div class="col-6">
+            <div class="p-3 border bg-light mensagem-especializacao">Segurança e criptografia de dados</div>
+          </div>
+          <div class="col-6">
+            <div class="p-3 border bg-light mensagem-especializacao">Custom column padding</div>
+          </div>
+        </div>
+      </div><br><br>
+
+      <div class="row">
+        <div class="col-sm">
+          <div class="card mensagem-especializacao" style="width: 18rem;">
+            <i class="fi fi-rr-clock"></i>
+            <div class="card-body">
+              <h5 class="card-title">Otimização de tarefas</h5>
+              <p class="card-text">Reduz o trabalho manual realizado, preparando o sistema que o sistema realize trabalhos repetitivos</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="card mensagem-especializacao" style="width: 18rem;">
+            <i class="fi fi-rr-chart-histogram"></i>
+            <div class="card-body">
+              <h5 class="card-title">Relatórios e gráficos sobre produtividade ou financeiro</h5>
+              <p class="card-text">Desenvolvimento de gráficos e relatório que demonstrem o status financeiro da empresa ou o andamento de suas atividades</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="card mensagem-especializacao" style="width: 18rem;">
+            <i class="fi fi-bs-lock-alt"></i>
+            <div class="card-body">
+              <h5 class="card-title">Segurança e criptografia de dados</h5>
+              <p class="card-text">Tratamento de segurança e criptografia para proteção dos dados em relação a LGPD</p>
+            </div>
+          </div>
+        </div>
+      </div>
   
     </section>
 
@@ -287,22 +329,21 @@
       </section>
     </section>
 
-    <!--Rodapé-->
+    <!--
+      Rodapé
+    -->
     <footer class="container-fluid ft-main">
         <div class="content-wd row">
             <div class="element-ft">
-                <img class="img-ft hidden-xs" src="http://i68.tinypic.com/2jbsj88.png" alt="Logo Rafael Franca de Andrade" />
-                <a class="rs-element">
-                    <i class="fa fa-facebook" aria-hidden="true"></i>
+              <a href="./"><img class="img-ft hidden-xs" src="./assets/logo.png" alt="Logo da empresa" /></a>
+                <a href="https://www.instagram.com/devscody/" target="_blank" class="rs-element">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
                 </a>
-                <a class="rs-element">
-                    <i class="fa fa-google-plus" aria-hidden="true"></i>
-                </a>
-                <a class="rs-element">
-                    <i class="fa fa-github" aria-hidden="true"></i>
-                </a>
-                <a class="rs-element">
+                <a href="https://br.linkedin.com/company/devscody?trk=public_profile_topcard-current-company" target="_blank" class="rs-element">
                     <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=5571997343101&text=Ol%C3%A1,%20gostaria%20de%20tirar%20algumas%20d%C3%BAvidas%20sobre%20seu%20servi%C3%A7o" target="_blank" class="rs-element">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
                 </a>
             </div>
         </div>
@@ -314,7 +355,6 @@
 
   <!--Scripts-->
   <!--Bootstrap-->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>

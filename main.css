@@ -77,27 +77,10 @@ body {
 }
 
 /*Especialização*/
-/* -------- SPONSOR SECTION ----------- */
-.section-4 {
-  margin: 4rem 0;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-around;
+.mensagem-especializacao:hover {
+  color: #b00d0c;
+  background: #161616 !important;
 }
-.sponsor img {
-  cursor: pointer;
-  width: 40px;
-  height: 40px;
-  filter: grayscale(100%);
-  opacity: 0.8;
-  transition: opacity 300ms;
-}
-.sponsor img:hover {
-  /* filter: grayscale(0); */
-  opacity: 1;
-}
-
 
 /*Contato*/
 .sc-contact {
@@ -206,9 +189,12 @@ body {
 .img-ft {
   margin: 9px 10px 0px;
   width: 130px;
-  -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+  /*
+  Deixa a cor meio cinza nos navegadores: Chrome, Safari, Opera
+  -webkit-filter: grayscale(100%); 
   filter: grayscale(100%);
   opacity: 0.3;
+  */
   display: inline-block;
   cursor: pointer;
 }
@@ -272,7 +258,8 @@ body {
 }
 h1:hover {
   transform: translate3d(0, -10px, 22px);
-  color: #ff0266;
+  /*color: #ff0266; vermelho*/
+  color: #2F0062;
 }
 
 .slider h2 {
