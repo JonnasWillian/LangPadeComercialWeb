@@ -77,9 +77,19 @@ body {
 }
 
 /*Especialização*/
+.mensagem-especializacao {
+  margin: 10px;
+}
+
 .mensagem-especializacao:hover {
-  color: #b00d0c;
-  background: #161616 !important;
+  color: #fff;
+  background: #2F0062 !important;
+}
+
+.mensagem-especializacao img{
+  width: 70%;
+  padding-left: 30%;
+  padding-top: 10px;
 }
 
 /*Contato*/
@@ -345,6 +355,16 @@ a {
   right: 0;
   z-index: auto;
 }
+
+@media (min-width: 200px) {
+  .slider {
+    height: 150vh;
+  }
+  .topo {
+    font-size: 60px;
+  }
+}
+
 @media (min-width: 800px) {
   .nav h1,
   .slider h1 {
