@@ -33,6 +33,14 @@ body {
   height: 70%;
 }
 
+/*Quem somos*/
+
+.mensagemQuemSomos {
+  color: #faebd7;
+  font-size: 3vw;
+  letter-spacing: 0.2vw;
+}
+
 /*Serviços*/
 .conheca .conheca-img {
   width: 300px;
@@ -48,7 +56,7 @@ body {
 }
 
 .conheca .box-sobre .icones img {
-    width: 100px;
+    width: 200px;
     background-color: #fff;
     padding: 25px;
     border-radius: 100%;
@@ -248,11 +256,15 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   position: relative;
+  height: 100vh;
   background-color: #1e1f26;
   text-align: center;
   padding: 0 2em;
+}
+
+.campo-prolongado {
+  height: 120vh;
 }
 
 .nav h1,
@@ -356,12 +368,48 @@ a {
   z-index: auto;
 }
 
-@media (min-width: 200px) {
+@media (min-width: 200px) and (max-width: 400px){
+  h3.span {
+    font-size: 4vw;
+  }
+
+  .nav-tab {
+    font-size: 3vw;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 600px){
+ .campo-prolongado{
+    padding: 0 4rem;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 600px){
+  .nav, .slider .nav-container,
+  .background{
+    padding: 0 0;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 600px) {
   .slider {
     height: 150vh;
   }
+  
   .topo {
     font-size: 60px;
+  }
+
+  .campo-prolongado{
+    height: 250vh;
+  }
+
+  .mensagemQuemSomos {
+    font-size: 3vw !important;
+  }
+
+  .img-topo {
+    display: none;
   }
 }
 
@@ -376,9 +424,7 @@ a {
     font-size: 3vw;
   }
 
-  .nav-tab {
-    font-size: 3vw;
-  }
+
 }
 
 @media only screen and (min-width: 360px) {
@@ -391,10 +437,6 @@ a {
   .slider h2 {
     font-size: 2vw;
     letter-spacing: 0.2vw;
-  }
-
-  .nav-tab {
-    font-size: 1.2vw;
   }
 }
 .background {
