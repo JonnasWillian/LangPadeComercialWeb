@@ -91,7 +91,7 @@ body {
 
 .mensagem-especializacao:hover {
   color: #fff;
-  background: #2F0062 !important;
+  background: #03dac6 !important;
 }
 
 .mensagem-especializacao img{
@@ -368,7 +368,7 @@ a {
   z-index: auto;
 }
 
-@media (min-width: 200px) and (max-width: 400px){
+@media (min-width: 1px) and (max-width: 400px){
   h3.span {
     font-size: 4vw;
   }
@@ -395,10 +395,6 @@ a {
   .slider {
     height: 150vh;
   }
-  
-  .topo {
-    font-size: 60px;
-  }
 
   .campo-prolongado{
     height: 250vh;
@@ -424,7 +420,9 @@ a {
     font-size: 3vw;
   }
 
-
+  .campo-prolongado{
+    height: 230vh;
+  }
 }
 
 @media only screen and (min-width: 360px) {
