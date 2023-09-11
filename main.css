@@ -368,7 +368,7 @@ a {
   z-index: auto;
 }
 
-@media (min-width: 1px) and (max-width: 400px){
+@media (min-width: 1px) and (max-width: 399px){
   h3.span {
     font-size: 4vw;
   }
@@ -391,7 +391,7 @@ a {
   }
 }
 
-@media (min-width: 200px) and (max-width: 600px) {
+@media (min-width: 200px) and (max-width: 799px) {
   .slider {
     height: 150vh;
   }
@@ -409,7 +409,7 @@ a {
   }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 800px)  and (max-width: 1200px) {
   .nav h1,
   .slider h1 {
     font-size: 5vw;
